@@ -5,7 +5,7 @@ printf "Installing config files\n"
 
 printf "Downloading Prettier config\n"
 
-wget https://raw.githubusercontent.com/shingravirei/dotfiles/master/prettaaier.config.js
+wget https://raw.githubusercontent.com/shingravirei/dotfiles/master/prettier.config.js
 
 printf "Setting up Eslint\n"
 
