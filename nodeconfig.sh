@@ -11,4 +11,6 @@ printf "Setting up Eslint\n"
 
 npx install-peerdeps --dev eslint-config-airbnb-base
 
+wget https://raw.githubusercontent.com/shingravirei/dotfiles/master/.eslintrc.js
+
 printf "\nDone"
