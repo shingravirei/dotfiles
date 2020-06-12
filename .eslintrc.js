@@ -2,7 +2,9 @@ module.exports = {
     env: {
         commonjs: true,
         es6: true,
-        node: true
+        node: true,
+        es2017: true,
+        es2020: true
     },
     extends: ['airbnb-base'],
     globals: {
@@ -10,7 +12,7 @@ module.exports = {
         SharedArrayBuffer: 'readonly'
     },
     parserOptions: {
-        ecmaVersion: 2018
+        ecmaVersion: 2020
     },
     rules: {
         'no-console': 0,
@@ -19,7 +21,6 @@ module.exports = {
         'arrow-body-style': 'warn',
         'linebreak-style': ['off', 'windows'],
         indent: ['error', 4],
-        'comma-dangle': 'off',
-        'arrow-parens': 'off'
+        'comma-dangle': 'off'
     }
 };
