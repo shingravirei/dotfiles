@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 set -e
 
-printf "Installing config files\n"
+echo "Installing config files"
 
-printf "Downloading Prettier config\n"
+echo "-> Downloading Prettier config"
 
 wget https://raw.githubusercontent.com/shingravirei/dotfiles/master/prettier.config.js
 
-printf "Setting up Eslint\n"
+echo "-> Setting up Eslint"
 
 npx install-peerdeps --dev eslint-config-airbnb-base
 
 wget https://raw.githubusercontent.com/shingravirei/dotfiles/master/.eslintrc.js
 
-printf "\nDone"
+echo "Done!"

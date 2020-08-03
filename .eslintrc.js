@@ -1,10 +1,9 @@
 module.exports = {
     env: {
         commonjs: true,
-        es6: true,
         node: true,
-        es2017: true,
-        es2020: true
+        es2020: true,
+        jest: true
     },
     extends: ['airbnb-base'],
     globals: {
